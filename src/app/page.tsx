@@ -17,20 +17,19 @@ export default function Home() {
 
         <div className="row-start-2 items-center flex flex gap-5">
 
-          <img
+          {/* <img
           className="rounded-md"
           src="/personal-photo.jpg"
           alt="Aphoey's profile photo"
           width={368}
           height={197}
-          />
+          /> */}
 
           <div className='flex flex-col'>
             <Button link='/groups'>Groups</Button>
-            <Button link='#'>Performances</Button>
-            <Button link='#'>Projects</Button>
+            <Button link='/performances'>Performances</Button>
+            <Button link='/projects'>Projects</Button>
           </div>
-
         </div>
 
       {/* --Main Section */}
